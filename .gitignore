@@ -1,0 +1,14 @@
+*.elc
+*.pyc
+*.pyo
+*~
+*.proj
+ac-comphist.dat
+ede-projects.el
+auto-save-list/
+semanticdb/
+.git/
+url/cookies
+elpa/archives/
+site-locals.el
+./bookmarks

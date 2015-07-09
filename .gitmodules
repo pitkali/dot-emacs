@@ -1,0 +1,3 @@
+[submodule "pos-tip"]
+	path = site-packages/pos-tip
+	url = https://github.com/pitkali/pos-tip.git
