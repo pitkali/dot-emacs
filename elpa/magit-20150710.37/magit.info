@@ -1942,11 +1942,11 @@ popup is the only way to change certain arguments.
 supported arguments, there also exist some commands which change a
 particular argument.
 
-‘+’     (‘magit-diff-less-context’)
+‘-’     (‘magit-diff-less-context’)
 
      Decrease the context for diff hunks by COUNT lines.
 
-‘-’     (‘magit-diff-more-context’)
+‘+’     (‘magit-diff-more-context’)
 
      Increase the context for diff hunks by COUNT lines.
 
@@ -2512,7 +2512,7 @@ interface of a ‘git add --interactive’ session.
 
    With Magit, on the other hand, one can un-/stage individual hunks by
 just moving point into the respective section inside a diff displayed in
-the status buffer or a separate diff buffer and typing ‘s~/~u’.  To
+the status buffer or a separate diff buffer and typing ‘s’ or ‘u’.  To
 operate on just parts of a hunk, mark the changes that should be
 un-/staged using the region and then press the same key that would be
 used to un-/stage.  To stage multiple files or hunks at once use a
@@ -5271,8 +5271,8 @@ Appendix B Keystroke Index
                                                               (line  34)
 * $:                                     Viewing Git output.  (line  11)
 * +:                                     Log Buffer.          (line  47)
-* + <1>:                                 Refreshing diffs.    (line  41)
-* -:                                     Refreshing diffs.    (line  45)
+* + <1>:                                 Refreshing diffs.    (line  45)
+* -:                                     Refreshing diffs.    (line  41)
 * 0:                                     Refreshing diffs.    (line  49)
 * 1:                                     Section visibility.  (line  26)
 * 2:                                     Section visibility.  (line  26)
@@ -6209,65 +6209,65 @@ Node: Blaming83865
 Node: Manipulating87137
 Node: Repository setup87429
 Node: Staging and unstaging88068
-Node: Staging from file-visiting buffers90512
-Node: Applying91680
-Node: Committing93259
-Node: Initiating a commit93842
-Node: Editing commit messages96677
-Node: Branching104184
-Node: Merging106538
-Node: Rebasing108623
-Node: Editing rebase sequences110326
-Node: Cherry picking112735
-Node: Reverting114342
-Node: Resetting115706
-Node: Stashing116990
-Node: Transferring120055
-Node: Remotes120293
-Node: Fetching121097
-Node: Pulling121914
-Node: Pushing122415
-Node: Creating and sending patches123734
-Node: Applying patches124430
-Node: Miscellaneous125429
-Node: Tagging125616
-Node: Notes126402
-Node: Submodules128928
-Node: Wip Modes130159
-Node: Customizing136079
-Node: Per-repository configuration137751
-Node: Essential settings139399
-Node: Safety139723
-Node: Performance142904
-Node: Plumbing147059
-Node: Calling Git147687
-Node: Getting a value from Git149210
-Node: Calling Git for effect152314
-Node: Section plumbing158818
-Node: Creating sections159046
-Node: Section selection162849
-Node: Matching sections164529
-Node: Refreshing buffers169731
-Node: Conventions172866
-Node: Confirmation and completion173043
-Node: Theming Faces173941
-Node: FAQ182092
-Node: Magit is slow183101
-Node: I am having problems committing183267
-Node: I am using an Emacs release older than 244183665
-Node: I am using a Git release older than 194185111
-Node: I am using MS Windows and cannot push with Magit185950
-Node: How to install the gitman info manual?186528
-Node: How can I show Git's output?189110
-Node: Expanding a file to show the diff causes it to disappear189920
-Node: Magit claims repository accessed using Tramp does not exist190460
-Node: Can Magit be used as ediff-version-control-package?191606
-Node: How to show diffs for gpg-encrypted files?193646
-Node: Emacs 245 hangs when loading Magit194237
-Node: Keystroke Index194756
-Node: Command Index217775
-Node: Function Index241312
-Node: Variable Index250936
+Node: Staging from file-visiting buffers90519
+Node: Applying91687
+Node: Committing93266
+Node: Initiating a commit93849
+Node: Editing commit messages96684
+Node: Branching104191
+Node: Merging106545
+Node: Rebasing108630
+Node: Editing rebase sequences110333
+Node: Cherry picking112742
+Node: Reverting114349
+Node: Resetting115713
+Node: Stashing116997
+Node: Transferring120062
+Node: Remotes120300
+Node: Fetching121104
+Node: Pulling121921
+Node: Pushing122422
+Node: Creating and sending patches123741
+Node: Applying patches124437
+Node: Miscellaneous125436
+Node: Tagging125623
+Node: Notes126409
+Node: Submodules128935
+Node: Wip Modes130166
+Node: Customizing136086
+Node: Per-repository configuration137758
+Node: Essential settings139406
+Node: Safety139730
+Node: Performance142911
+Node: Plumbing147066
+Node: Calling Git147694
+Node: Getting a value from Git149217
+Node: Calling Git for effect152321
+Node: Section plumbing158825
+Node: Creating sections159053
+Node: Section selection162856
+Node: Matching sections164536
+Node: Refreshing buffers169738
+Node: Conventions172873
+Node: Confirmation and completion173050
+Node: Theming Faces173948
+Node: FAQ182099
+Node: Magit is slow183108
+Node: I am having problems committing183274
+Node: I am using an Emacs release older than 244183672
+Node: I am using a Git release older than 194185118
+Node: I am using MS Windows and cannot push with Magit185957
+Node: How to install the gitman info manual?186535
+Node: How can I show Git's output?189117
+Node: Expanding a file to show the diff causes it to disappear189927
+Node: Magit claims repository accessed using Tramp does not exist190467
+Node: Can Magit be used as ediff-version-control-package?191613
+Node: How to show diffs for gpg-encrypted files?193653
+Node: Emacs 245 hangs when loading Magit194244
+Node: Keystroke Index194763
+Node: Command Index217782
+Node: Function Index241319
+Node: Variable Index250943
 
 End Tag Table
 
