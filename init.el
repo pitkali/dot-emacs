@@ -123,7 +123,9 @@
    ([?\C-c ?2] . fill-region)
    ([?\C-9]    . previous-buffer)
    ([?\C-0]    . next-buffer)
-   ([?\C-\M-0] . kill-this-buffer)))
+   ([?\C-\M-0] . kill-this-buffer)
+   ([A-left]  . backward-word)
+   ([A-right] . forward-word)))
 
 
 ;; Prefix for my special key bindings
