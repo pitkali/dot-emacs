@@ -75,7 +75,7 @@ everything."
 
 (defun my-lisp-common-hook ()
   (my-paredit-setup)
-  (turn-on-eldoc-mode)
+  (eldoc-mode)
   (eldoc-add-command
    #'paredit-backward-delete
    #'paredit-close-round
@@ -102,6 +102,14 @@ everything."
                slime-repl-mode-hook)
  do (add-hook hook #'my-lisp-hook))
 (add-hook 'scheme-mode-hook #'my-scheme-hook)
+
+
+;;; Some clojure/cider goodness
+
+(add-hook 'clojure-mode-hook #'my-lisp-common-hook)
+(add-hook 'cider-repl-mode-hook #'my-lisp-common-hook)
+(setq cider-repl-use-clojure-font-lock t)
+
 
 ;;; Slime setup
 

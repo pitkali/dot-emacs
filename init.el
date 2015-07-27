@@ -26,7 +26,8 @@
  '(ns-right-alternate-modifier (quote none))
  '(package-archives
    (quote
-    (("melpa" . "http://melpa.milkbox.net/packages/")
+    (("melpa" . "http://melpa.org/packages/")
+     ("melpa-stable" . "http://stable.melpa.org/packages/")
      ("gnu" . "http://elpa.gnu.org/packages/"))))
  '(project-tags-form-default nil)
  '(quack-default-program "racket")
@@ -101,7 +102,7 @@
      (define-key flyspell-mode-map [?\C-.] nil)))
 
 (my-global-set-keys
- '(([f5] . (lambda () (interactive)
+ `(([f5] . (lambda () (interactive)
              (revert-buffer t t)))
    ([f6] . delete-trailing-whitespace)
 
@@ -124,8 +125,10 @@
    ([?\C-9]    . previous-buffer)
    ([?\C-0]    . next-buffer)
    ([?\C-\M-0] . kill-this-buffer)
-   ([A-left]  . backward-word)
-   ([A-right] . forward-word)))
+   ([A-left]   . [M-left])
+   ([A-right]  . [M-right])
+   ([A-backspace] . [M-backspace])
+   ([A-delete]    . [M-delete])))
 
 
 ;; Prefix for my special key bindings
