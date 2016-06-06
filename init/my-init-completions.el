@@ -23,6 +23,7 @@
 (add-hook 'python-mode-hook
           #'(lambda ()
               (add-to-list 'company-backends 'company-anaconda)))
+(add-hook 'python-mode-hook 'anaconda-eldoc-mode)
 (add-hook 'after-init-hook 'global-company-mode)
 
 ;; Force completions start
