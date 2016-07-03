@@ -20,6 +20,7 @@
 ;; around.
 (setq company-begin-commands '(self-insert-command))
 
+(add-hook 'python-mode-hook 'anaconda-mode)
 (add-hook 'python-mode-hook
           #'(lambda ()
               (add-to-list 'company-backends 'company-anaconda)))
