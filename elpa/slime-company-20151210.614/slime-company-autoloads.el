@@ -1,10 +1,9 @@
 ;;; slime-company-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("slime-company.el") (22192 62953 957193
-;;;;;;  0))
+;;;### (autoloads nil nil ("slime-company.el") (22601 53061 0 0))
 
 ;;;***
 

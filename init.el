@@ -29,6 +29,9 @@
     (("melpa" . "http://melpa.org/packages/")
      ("melpa-stable" . "http://stable.melpa.org/packages/")
      ("gnu" . "http://elpa.gnu.org/packages/"))))
+ '(package-selected-packages
+   (quote
+    (zenburn-theme solarized-theme ruby-refactor paredit org magit levenshtein json-rpc jedi isearch+ idomenu ido-ubiquitous ido-load-library icomplete+ ibuffer-vc highlight-parentheses gtags ggtags geiser flymake-ruby flex-isearch fill-column-indicator erlang enh-ruby-mode dtrt-indent company-quickhelp company-jedi company-inf-ruby company-inf-python company-ghc company-auctex company-anaconda cider-spy cider-profile cider-eval-sexp-fu cider-decompile autopair ahg)))
  '(project-tags-form-default nil)
  '(quack-default-program "racket")
  '(quack-global-menu-p nil)
